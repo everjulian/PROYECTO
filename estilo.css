@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'open sans';
+    font-family: sans-serif;
 }
 
 .contenedor {
@@ -29,7 +29,7 @@ header {
     width: 100%;
     height: 600px;
     background: #283048;  
-    background: linear-gradient(to left, #85939888, #28304844),url(imagenes/perfil.jpg);
+    background: linear-gradient(to left, #8593988f, #283048d2),url(imagenes/perfil.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
