@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Reservaciones</title>
     <link rel="stylesheet" href="reservas.css">
+    <link rel="stylesheet" href="Indibidual.html">
 </head>
 <body>
     <header>
@@ -30,9 +31,10 @@
                 style="stroke: none; fill: #fff;"></path>
         </svg></div>
 </header>
-    <div class="div-reserva">
+
+    <div id="hab1" class="div-reserva">
         <div>
-            <img class="imagen-hotel" src="/imagenes/habitacion1.jpg" alt="">
+            <img src="/imagenes/habitacion1.jpg" id="hot1" class="imagen-hotel"  alt="">
         </div>
         <div class="informacion">
             <h2>Hospedaje en Quito Norte, Hotel Finlandia   </h2>
@@ -40,14 +42,15 @@
             <p class="info">-Aparcamiento gratuito</p>
             <p class="info">Av. Amazonas N23-44 y Veintimilla,</p>
             <p class="info">Quito - Ecuador</p>
-            <button type="button" value="Reservar ahora">Reservar ahora</button>
-            <button type="button" value="Cancelar reserva">Cancelar reserva</button>
+            <button type="button" value="Reservar ahora" onclick="reserva();">Reservar ahora</button>
+            <button type="button" value="Cancelar reserva" onclick="ocultar();">Cancelar reserva</button>
         </div>
     </div>
 
-    <div class="div-reserva">
+
+    <div id="hab2" class="div-reserva">
         <div>
-            <img class="imagen-hotel" src="/imagenes/habitacion2.jpg" alt="">
+            <img src="/imagenes/habitacion2.jpg" id="hot2" class="imagen-hotel"  alt="">
         </div>
         <div class="informacion">
             <h2>Hospedaje en Quito Norte, Hotel Finlandia</h2>
@@ -55,9 +58,10 @@
             <p class="info">-Aparcamiento gratuito</p>
             <p class="info">Av. Amazonas N23-44 y Veintimilla,</p>
             <p class="info">Quito - Ecuador</p>
-            <button type="button" value="Reservar ahora">Reservar ahora</button>
-            <button type="button" value="Cancelar reserva">Cancelar reserva</button>
+            <button id="reservaHotel" type="button" value="Reservar ahora" onclick="reserva2()">Reservar ahora</button>
+            <button type="button" value="Cancelar reserva" onclick="ocultar2()">Can celar reserva</button>
         </div>
     </div>  
+    <script src="reservas.js"></script>
 </body>
 </html>
